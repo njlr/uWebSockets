@@ -1,4 +1,14 @@
 cxx_binary(
+  name = 'hello',
+  srcs = [
+    'hello.cpp',
+  ],
+  deps = [
+    '//:uwebsockets',
+  ],
+)
+
+cxx_binary(
   name = 'echo',
   srcs = [
     'echo.cpp',
