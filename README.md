@@ -66,3 +66,10 @@ If you wish to integrate with a specific event-loop you can define `USE_ASIO` or
 * `sudo make install` (or as you wish)
 ###### Windows
 * Compile `VC++.vcxproj` with Visual C++ Community Edition 2015 or later.
+###### Buck & Buckaroo
+If you are using [Buck](https://buckbuild.com) and [Buckaroo](https://buckaroo.pm), then you can build the project as follows:
+
+```
+buckaroo install
+buck build //:uwebsockets
+```

@@ -1,0 +1,8 @@
+{
+  "name": "uWebSockets",
+  "dependencies": {
+    "libuv/libuv": "1.11.0",
+    "madler/zlib": "1.2.11",
+    "openssl/openssl": "1.0.211"
+  }
+}

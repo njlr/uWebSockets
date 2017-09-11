@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'echo',
+  srcs = [
+    'echo.cpp',
+  ],
+  deps = [
+    '//:uwebsockets',
+  ],
+)
+
+cxx_binary(
+  name = 'multithreaded_echo',
+  srcs = [
+    'multithreaded_echo.cpp',
+  ],
+  deps = [
+    '//:uwebsockets',
+  ],
+)

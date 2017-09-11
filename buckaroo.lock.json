@@ -1,0 +1,35 @@
+{
+  "libuv/libuv": {
+    "source": {
+      "url": "https://github.com/libuv/libuv/archive/7452ef4e06a4f99ee26b694c65476401534f2725.zip",
+      "sha256": "382f7b923d1a430dca9a0ef880a7c39e6a59cec6dddcea3b6222b28dbd11ce2e",
+      "subPath": "libuv-7452ef4e06a4f99ee26b694c65476401534f2725"
+    },
+    "buck": {
+      "url": "https://raw.githubusercontent.com/njlr/libuv/4f416e96a968bb474652aa7690295f164be595e1/BUCK",
+      "sha256": "a91f96dcb409b03433a593dfa27359afd4ef3975af62b19d297bb9e01288e847"
+    }
+  },
+  "madler/zlib": {
+    "source": {
+      "url": "https://github.com/madler/zlib/archive/cacf7f1d4e3d44d871b605da3b647f07d718623f.zip",
+      "sha256": "1cce3828ec2ba80ff8a4cac0ab5aa03756026517154c4b450e617ede751d41bd",
+      "subPath": "zlib-cacf7f1d4e3d44d871b605da3b647f07d718623f"
+    },
+    "buck": {
+      "url": "https://raw.githubusercontent.com/njlr/zlib/c99d7665173f5b04f1aa106016c5df3632e1f8cd/BUCK",
+      "sha256": "39540f57581a5e63b3d4f0e17a2967ae8f9df3521b085cb6dc230a2e37f30466"
+    }
+  },
+  "openssl/openssl": {
+    "source": {
+      "url": "https://github.com/openssl/openssl/archive/081314d07705aa58912845c213a48414d8f616a9.zip",
+      "sha256": "c8a4fadcbdd42278dc00c07d76bf218fb77827061b061327ee2c81cb41eca6e1",
+      "subPath": "openssl-081314d07705aa58912845c213a48414d8f616a9"
+    },
+    "buck": {
+      "url": "https://raw.githubusercontent.com/njlr/openssl/e60437036283817c302536d7c62169eb151166d9/BUCK",
+      "sha256": "e6ad6f970047fcde0671c063389f9c32c994c13e4cfeb03724123e80c0e584e3"
+    }
+  }
+}

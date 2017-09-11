@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'tests',
+  srcs = [
+    'main.cpp',
+  ],
+  deps = [
+    '//:uwebsockets',
+  ],
+)
